@@ -3,6 +3,8 @@ package com.amey.SpringJDBC.model;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
+// STUDENT CLASS FOR STUDENT TABLE
+
 @Component
 @Scope("prototype") // SINCE WE ARE WORKING WITH MULTIPLE STUDENTS
 // ADDED GETTERS AND SETTERS AND TOSTRING METHODS
